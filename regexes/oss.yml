@@ -93,6 +93,10 @@
 - regex: 'BeyondPod|AntennaPod|Podkicker|DoggCatcher|Player FM|okhttp|Podcatcher Deluxe'
   name: 'Android'
   version: ''
+
+- regex: 'okhttp|Silk-Accelerated=[a-z]{4,5}'
+  name: 'Android'
+  version: ''
   
   
 ##########

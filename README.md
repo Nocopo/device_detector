@@ -17,6 +17,15 @@ This port does not aspire to be a one-to-one copy from the original code, but ra
 
 Still, our goal is to use the original, unchanged regex yaml files, in order to mutually benefit from updates and pull request to both the original and the ported versions.
 
+## WARNING
+ Forked for recognizing 'okhttp/3.4.1' user agent.
+ ```ruby
+ client = DeviceDetector.new('okhttp/3.4.1')
+ client.os_name # => 'Android'
+ ```
+ Changed: 
+  device_detector/regexes/oss.yml:97
+  device_detector/regexes/client/libraries.yml:68
 ## Installation
 
 Add this line to your application's Gemfile:

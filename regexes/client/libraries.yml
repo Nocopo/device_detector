@@ -65,3 +65,6 @@
 - regex: 'Faraday(?: v(\d+[\.\d]+))?'
   name: 'Faraday'
   version: '$1'
+- regex: 'okhttp(?:/(\d+[\.\d]+))?'
+  name: 'Android'
+  version: '$1'
